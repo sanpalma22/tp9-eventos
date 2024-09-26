@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "./cardEvento.module.css"
 import Link from "next/link";
 export default function CardEvento({ evento }) {
