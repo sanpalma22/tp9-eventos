@@ -8,7 +8,7 @@ export default function CardEvento({ evento }) {
       </div>
       <p className={styles.nombreEvento}>{evento.nombre}</p>
       <p className={styles.fechaEvento}>{evento.fecha}</p>
-      <Link href={""} className={styles.btnInfo}>Ver info</Link>
+      <Link href={"/1"} className={styles.btnInfo}>Ver info</Link>
     </div>
   );
 }

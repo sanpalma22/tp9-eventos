@@ -8,7 +8,9 @@ export default function HeaderNav({ usuario }) {
             <li><Link href={"/"}>Home</Link></li>
             <li><Link href={"/contacto"}>Contacto</Link></li>
         </ul>
-        
+        <div>
+            
+        </div>
     </header>
   );
 }
