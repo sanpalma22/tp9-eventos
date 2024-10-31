@@ -1,0 +1,46 @@
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #eaeaea;
+    font-size: larger;
+    justify-content: space-between; 
+  }
+  
+  .nav {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .userMenu {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .userName {
+    margin-right: 10px;
+  }
+  
+  .logoutButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #0070f3;
+    text-decoration: underline;
+  }
+  
+  .loginButton {
+    background-color: #0070f3;
+    padding: 8px;
+    border-radius: 30px;
+    color: #fff;
+  }
+  
+  
