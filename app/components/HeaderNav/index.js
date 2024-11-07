@@ -11,8 +11,6 @@ export default function HeaderNav({ usuario }) {
       <nav className={styles.nav}>
         <div className={styles.logo}>
           <Link href="/"><Image src={'/logo.png'} alt="Logo del sitio" width={100} height={100} className={styles.logo}/></Link>
-          
-
         </div>
         <Link href="/">Home</Link>
         <Link href="/contacto">Contacto</Link>
