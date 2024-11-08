@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function HeaderNav({ usuario }) {
 
-  usuario = { nombre: "carlos" }; 
+  // usuario = { nombre: "carlos" }; 
 
   return (
     <header className={styles.header}>
@@ -21,7 +21,7 @@ export default function HeaderNav({ usuario }) {
           <button className={styles.logoutButton}>Cerrar sesión</button>
         </div>
       ) : (
-        <Link href="/login" className={styles.loginButton}>
+        <Link href="/registro" className={styles.loginButton}>
           Iniciar sesión
         </Link>
       )}
